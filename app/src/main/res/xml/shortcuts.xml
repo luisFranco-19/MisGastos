@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shortcuts xmlns:android="http://schemas.android.com/apk/res/android">
+    <shortcut
+        android:shortcutId="register_expense"
+        android:enabled="true"
+        android:icon="@android:drawable/ic_input_add"
+        android:shortcutShortLabel="@string/register_expense_short"
+        android:shortcutLongLabel="@string/shortcut_register_long">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetPackage="com.misgastos.app"
+            android:targetClass="com.misgastos.app.MainActivity"
+            android:data="misgastos://register" />
+    </shortcut>
+</shortcuts>

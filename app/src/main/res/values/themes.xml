@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.MisGastos" parent="android:Theme.Material.Light.NoActionBar">
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:windowLightNavigationBar">true</item>
+        <item name="android:colorPrimary">@color/teal_primary</item>
+    </style>
+
+    <style name="Theme.App.Starting" parent="Theme.SplashScreen">
+        <!-- Fondo claro para la pantalla previa -->
+        <item name="windowSplashScreenBackground">#FFFFFF</item>
+        <!-- Logotipo oficial centrado en la pantalla previa nativa de inicio -->
+        <item name="windowSplashScreenAnimatedIcon">@drawable/ic_splash_logo</item>
+        <!-- Tema de la aplicación una vez concluido el splash -->
+        <item name="postSplashScreenTheme">@style/Theme.MisGastos</item>
+    </style>
+</resources>

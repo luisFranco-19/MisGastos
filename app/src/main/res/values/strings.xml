@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Mis Gastos</string>
+    <string name="register_expense">Registrar gasto</string>
+    <string name="register_expense_short">Registrar</string>
+    <string name="save_expense">Guardar gasto</string>
+    <string name="amount">Monto</string>
+    <string name="amount_hint">0.00</string>
+    <string name="payment_method">Método de pago</string>
+    <string name="category">Categoría</string>
+    <string name="description">Descripción</string>
+    <string name="description_hint">Ej: Almuerzo</string>
+    <string name="date">Fecha</string>
+    <string name="home">Inicio</string>
+    <string name="statistics">Estadísticas</string>
+    <string name="expenses">Gastos</string>
+    <string name="settings">Ajustes</string>
+    <string name="total_month">Total del mes</string>
+    <string name="expenses_count">Cantidad de gastos</string>
+    <string name="recent_expenses">Últimos gastos</string>
+    <string name="synced">Sincronizado</string>
+    <string name="syncing">Sincronizando…</string>
+    <string name="pending_sync">Pendiente de sincronización</string>
+    <string name="sync_error">Error de sincronización</string>
+    <string name="sync_now">Sincronizar ahora</string>
+    <string name="budget">Presupuesto</string>
+    <string name="monthly_budget">Presupuesto mensual</string>
+    <string name="spent">Gastado</string>
+    <string name="available">Disponible</string>
+    <string name="search">Buscar</string>
+    <string name="filter">Filtrar</string>
+    <string name="edit">Editar</string>
+    <string name="delete">Eliminar</string>
+    <string name="cancel">Cancelar</string>
+    <string name="confirm">Confirmar</string>
+    <string name="delete_confirm">¿Estás seguro de que quieres eliminar este gasto?</string>
+    <string name="expense_saved">Gasto guardado correctamente</string>
+    <string name="expense_updated">Gasto actualizado</string>
+    <string name="expense_deleted">Gasto eliminado</string>
+    <string name="amount_error">El monto debe ser mayor que 0</string>
+    <string name="payment_method_error">Selecciona un método de pago</string>
+    <string name="category_error">Selecciona una categoría</string>
+    <string name="no_expenses">No hay gastos registrados</string>
+    <string name="saved_locally">El gasto se guardó localmente y se sincronizará cuando tengas Internet</string>
+    <string name="google_not_connected">Cuenta de Google no conectada</string>
+    <string name="sync_failed">No se pudo sincronizar con Google Sheets</string>
+    <string name="budget_warning_80">Has utilizado el 80%% de tu presupuesto mensual</string>
+    <string name="budget_warning_90">Has utilizado el 90%% de tu presupuesto mensual</string>
+    <string name="budget_exceeded">Has excedido tu presupuesto mensual</string>
+    <string name="widget_description">Widget de acceso rápido para registrar gastos</string>
+    <string name="widget_register_prompt">¿Quieres registrar un gasto?</string>
+    <string name="spent_this_month">Gastado este mes</string>
+    <string name="shortcut_register">Registrar gasto</string>
+    <string name="shortcut_register_long">Abrir formulario de registro de gasto</string>
+
+    <!-- Payment Methods -->
+    <string name="cash">Efectivo</string>
+    <string name="debit_card">Tarjeta de débito</string>
+    <string name="credit_card">Tarjeta de crédito</string>
+    <string name="transfer">Transferencia</string>
+    <string name="other">Otro</string>
+
+    <!-- Default Categories -->
+    <string name="food">Comida</string>
+    <string name="transport">Transporte</string>
+    <string name="supermarket">Supermercado</string>
+    <string name="entertainment">Entretenimiento</string>
+    <string name="education">Educación</string>
+    <string name="health">Salud</string>
+    <string name="home_category">Hogar</string>
+    <string name="clothing">Ropa</string>
+    <string name="videogames">Videojuegos</string>
+    <string name="technology">Tecnología</string>
+    <string name="subscriptions">Suscripciones</string>
+    <string name="others">Otros</string>
+
+    <!-- Settings -->
+    <string name="account">Cuenta</string>
+    <string name="google_account">Cuenta Google</string>
+    <string name="disconnect_account">Desconectar cuenta</string>
+    <string name="google_sheets">Google Sheets</string>
+    <string name="spreadsheet_id">ID del Spreadsheet</string>
+    <string name="sheet_name">Nombre de hoja</string>
+    <string name="general">General</string>
+    <string name="currency">Moneda</string>
+    <string name="first_day_of_month">Primer día del mes</string>
+    <string name="theme">Tema</string>
+    <string name="theme_light">Claro</string>
+    <string name="theme_dark">Oscuro</string>
+    <string name="theme_system">Sistema</string>
+    <string name="notifications">Notificaciones</string>
+    <string name="budget_alerts">Alertas de presupuesto</string>
+    <string name="data">Datos</string>
+    <string name="export_data">Exportar datos</string>
+    <string name="import_data">Importar datos</string>
+    <string name="delete_local_data">Eliminar datos locales</string>
+    <string name="delete_data_confirm">¿Estás seguro de que quieres eliminar todos los datos locales? Esta acción no se puede deshacer.</string>
+    <string name="data_deleted">Datos eliminados</string>
+    <string name="connect_google">Conectar con Google</string>
+
+    <!-- Statistics -->
+    <string name="daily_average">Promedio diario</string>
+    <string name="top_category">Categoría con mayor gasto</string>
+    <string name="today">Hoy</string>
+    <string name="this_week">Esta semana</string>
+    <string name="this_month">Este mes</string>
+    <string name="last_month">Mes anterior</string>
+    <string name="this_year">Este año</string>
+    <string name="custom">Personalizado</string>
+    <string name="by_category">Por categoría</string>
+    <string name="by_payment_method">Por método de pago</string>
+    <string name="by_day">Por día</string>
+</resources>
